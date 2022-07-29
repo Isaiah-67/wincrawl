@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Isaiah-67 
-Isaiah-67
-/
-spotify-addblocker
-Public
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-spotify-addblocker/install.ps1
-@Isaiah-67
-Isaiah-67 Update install.ps1
-Latest commit 2e84d9c now
- History
- 1 contributor
-334 lines (292 sloc)  10.5 KB
-
 $PSDefaultParameterValues['Stop-Process:ErrorAction'] = [System.Management.Automation.ActionPreference]::SilentlyContinue
 function Get-File
 {
@@ -362,18 +332,3 @@ Write-Host @'
 '@
 
 exit
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
